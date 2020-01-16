@@ -49,7 +49,7 @@ const cartReducer = (state = initialState , action) => {
                 const peice = copyState.elements[action.name].price / copyState.elements[action.name].total;
               copyState.elements[action.name].price = copyState.elements[action.name].price - peice;
               copyState.elements[action.name].total = copyState.elements[action.name].total - 1;
-              copyState.total = copyState.total - copyState.elements[action.name].price;
+              copyState.total = copyState.total - peice;
               return copyState
           }
       case RESET_CART_STORE:
