@@ -6,9 +6,9 @@ import {Button, Form} from "reactstrap";
 const Modal = (
     {title, show, dismiss, children, createOrder}
 ) => {
-    return show && (
+    return (
         <Form onSubmit={createOrder}>
-            <div className='show myModal border rounded p-3 d-flex flex-column align-items-start'>
+            <div className={`${show && 'show'} myModal border rounded p-3 d-flex flex-column align-items-start`}>
                 <div className='modalHeader'>
                     {title}
                 </div>
