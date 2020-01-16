@@ -1,0 +1,12 @@
+.myModal {
+    position: absolute;
+    top: -100vh;
+    right: calc(50% - 500px / 2);
+    width: 500px;
+    background: white;
+    z-index: 1000;
+}
+.show {
+    top: 100px;
+    transition: .5s all;
+}

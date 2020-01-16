@@ -1,0 +1,9 @@
+export const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
+
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const DELETE_PRODUCT_AT_THA_CART = 'DELETE_PRODUCT_AT_THA_CART';
+export const RESET_CART_STORE = 'RESET_CART_ STORE';
+//
+// export const ORDER_REQUEST = 'RESET_CART_ STORE';
+// export const ORDER_SUCCESS = 'RESET_CART_ SUCCESS';
+// export const ORDER_ERROR = 'RESET_CART_ ERROR';
